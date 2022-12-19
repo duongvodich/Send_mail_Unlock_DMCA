@@ -1,0 +1,230 @@
+from selenium import webdriver
+import time
+from random import randrange
+from tkinter import*
+
+def send_mail():
+    noi_dung_sendmail = randrange (1,100)
+    if noi_dung_sendmail == 6:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 7:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 8:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 9:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 10:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 11:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 12:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 13:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 14:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 15:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 16:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 17:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 18:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 19:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 20:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 21:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 22:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 23:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 24:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 25:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 26:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 27:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 28:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 29:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 30:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 31:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 32:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 33:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 34:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 35:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 36:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 37:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 38:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 39:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 40:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 41:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 42:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 43:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 44:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 45:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 46:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 47:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 48:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 49:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 50:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 51:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 52:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 53:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 54:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 55:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 56:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 57:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 58:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 59:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 60:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 61:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 62:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 63:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 64:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 65:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 66:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 67:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 68:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 69:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 70:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 71:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 72:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 73:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 74:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 75:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 76:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 77:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 78:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 79:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 80:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 81:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 82:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 83:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 84:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 85:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 86:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 87:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 88:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 89:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 90:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 91:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 92:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 93:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 94:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 95:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 96:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 97:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 98:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 99:
+        noi_dung_sendmail = '''''' 
+    if noi_dung_sendmail == 100:
+        noi_dung_sendmail = '''''' 
+
+
+    gui_den = 'conghuy@gmail.com'
+    tieu_De = 'Kháng cáo bản quyền DMCA'
+    noi_dung = ''
+
+
+
+    sleep_time = randrange(3,6)
+    #Copyright appeal form
+    options = webdriver.ChromeOptions()
+    options.add_argument('user-data-dir=C:\\Users\\Administrator\\Documents\\Python_2023\\Data_chrome')
+    options.add_argument('window-size=400,600')
+    # ẩn chrome // options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
+    time.sleep(sleep_time)
+    Url_gmail = r'https://mail.google.com/mail/mu/mp/934/#tl/priority/%5Esmartlabel_personal'
+    driver.get(Url_gmail)
+    time.sleep(sleep_time)
+    Viet_thu = driver.find_element_by_xpath('/html/body/div[5]/div[1]/div/div/div[4]/div/div').click()
+    time.sleep(sleep_time)
+    Send_to = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[2]/div/div[1]/div[3]/div/input').send_keys(gui_den)
+    time.sleep(sleep_time)
+    driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[2]/div/div[2]/div/div/div/div/div[1]/div/div/div').click()
+    time.sleep(sleep_time)
+    Content = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[2]/div/div[5]/div').send_keys(All_noi_dung)
+    time.sleep(sleep_time)
+    Title = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[1]/div[2]/div/div[4]/input').send_keys(tieu_De)
+    time.sleep(sleep_time)
+    send_email = driver.find_element_by_xpath('/html/body/div[5]/div[1]/div[2]/div/div[4]/div/div').click()
+    time.sleep(10)
+
+send_mail()
